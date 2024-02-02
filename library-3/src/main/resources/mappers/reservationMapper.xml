@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kg.library.reservation.ReservationMapper">
+	<select id="getReservations">
+		select room_num from reservation where reservation_date = #{reservation_date} and reservation_time = #{reservation_time}
+	</select>
+	
+	<select id="getReservations2">
+		select reservation_time from reservation where reservation_date = #{reservation_date} and room_num = #{room_num}
+	</select>
+	
+	<select id="getReservations3">
+		select reservation_time from reservation where reservation_date = #{reservation_date} and member = #{member}
+	</select>
+	
+	<insert id="insert">
+		insert into reservation values(reservation_seq.NEXTVAL, #{room_num}, #{reservation_date}, #{reservation_time},
+		#{member}, #{duration} )
+	</insert>
+	
+	<select id="getReservations4">
+		select room_num, reservation_date, min(reservation_time) as reservation_time, max(duration) as duration
+		from reservation where member = #{sessionId}  group by room_num, reservation_date
+	</select>
+	
+	<delete id="cancel">
+		delete from reservation where room_num = #{room_num} and reservation_date = #{reservation_date}
+	</delete>
+</mapper>

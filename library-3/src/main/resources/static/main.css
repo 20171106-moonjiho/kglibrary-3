@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+
+.menu{
+	top: 40px;
+	left: 40px;
+	width: 200px;
+	position: relative;
+	
+}
+.navi>li{
+	float: left;
+	width: 130px;
+	height: 50px;
+}
+.navi>li:first-child{}
+.navi>li>a{
+	display: block;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: bold;
+	width:130px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #6e39aa;
+	box-sizing:border-box;
+	text-align: left;
+	border-bottom: 1px solid #c6a1e3;
+	}
+.navi>li>a.on{
+	display: block;
+	background: #fff url("../img/book_arr.gif")no-repeat 86% 50%;
+	color: #6e39aa;
+	width: 150px;
+	box-shadow: 6px 8px 9px 0px rgba(0,0,0,0.2);
+	border-bottom: 0;
+}
+.navi>li>a:hover{
+	
+}
+.navi .active{display: block;}
+.submenu{
+	position: absolute;
+	z-index: 1;
+	top: -10px;
+	left: 173px;
+	float: left;
+	display: none;
+	width: 500px;
+	
+}
+.submenu>li{
+	float: left;
+	width: 140px;
+	height: 200px;
+	margin-right: 15px;
+	background-color: #888;
+}
+.submenu>li:last-child{margin-right: 0;}
+.submenu>li img{width: 140px; height: 200px;}
+.submenu >li>a{
+	font-size: 15px;
+	font-weight: bold;
+	width:180px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.submenu>li>a:hover{
+	background-color: #cccccc;
+}*/
+
+.tab-menu2{width:655px; position: relative;}
+.tab-menu2 .tab-btn{position: absolute;top: 40px; left: 40px; width: 130px; height: 50px;}
+.tab-menu2 .tab-btn ul li{width:130px;height:50px;text-align: center;}
+.tab-menu2 .tab-btn ul li a{
+	display: block;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: bold;
+	width:130px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #eadcf5;
+	box-sizing:border-box;
+	text-align: left;
+	border-bottom: 1px solid #c6a1e3;
+}
+.tab-menu2 .tab-btn ul li:first-child a{}
+/*
+.tab-menu2 .tab-btn ul li a{color:#000;display: block;width:142px;height:50px;border:1px solid #ddd;line-height: 50px;border-left:none;
+    box-sizing: border-box;background:url(images/chk2.jpg) no-repeat 110px 19px;}
+*/
+.tab-menu2 .tab-btn ul li.on a{
+	background: #fff url("../img/book_arr.gif")no-repeat 86% 50%;
+	color: #6e39aa;
+	width: 150px;
+	box-shadow: 6px 8px 9px 0px rgba(0,0,0,0.2);
+	border-bottom: 0;}
+.tab-menu2 .tab-cont{width: 532px; height: 250px;position: absolute; top: 30px; left: 220px;}
+
+.tab-menu2 .tab-cont div{float:left;width:100%;}
+
+.tab-menu2 .tab-cont .t-cont1 li{float:left;margin-right:20px;position: relative;}
+.tab-menu2 .tab-cont .t-cont1 li img{width:140px; height: 200px;}
+.tab-menu2 .tab-cont .t-cont1 li:hover .overrap{display: block;}
+.overrap{width: 130px; height: 200px; opacity: 100%; background-color: #fff;z-index: 999; position: absolute; top: 0;left: 0;text-align: center;
+background: url("../img/book_ov.png")no-repeat 0 0; display: none;}
+.overrap .btit {display:block; width: 100px; margin: 0 auto; font-size:18px; padding-top:58px;text-overflow: ellipsis;-o-text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  word-wrap: normal !important;color: #fff;}
+.overrap .name {display:block; width: 120px; font-size:13px; color: #fff; padding:10px; text-overflow: ellipsis;-o-text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  word-wrap: normal !important;}
+.overrap .more {margin-top:20px; font-size:0; display: inline-block; width:24px; height:24px; background:url("../img/book_more.png")no-repeat 0 0;}

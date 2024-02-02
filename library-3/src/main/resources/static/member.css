@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.memberbox{display:inline-block;width:100%;}
+.memberbox .box{position:relative;float:left;width:300px;margin-left:2.3%;padding:60px 40px 40px;min-height:660px;border:1px solid #dfdfdf;transition:all 0.2s ease;-webkit-transition:all 0.2s ease;}
+.memberbox .box:first-child{margin-left:0;}
+.memberbox .box .tit{border-bottom:1px dashed #ccc;font-size:26px; padding-top: 130px; padding-bottom:30px; line-height:1.4; color:#222;text-align:center; background-repeat:no-repeat;background-position:center 56px;}
+.memberbox .box .con > ul{padding-top:22px;}
+.memberbox .box .btn{position:absolute;bottom:40px;left:0;width:100%;text-align:center;}
+.memberbox .box:hover{border:1px solid #323232;box-shadow:8px 10px 20px rgba(0,0,0,0.2);-webkit-box-shadow:8px 10px 20px rgba(0,0,0,0.2);}
+
+/***아이디비밀번호찾기***/
+.memberbox.idpw .box{min-height:390px;}
+.memberbox.idpw .box .con{padding-top:0; font-size:15px;line-height:26px;color:#555;text-align:center;}
+.memberbox.idpw .box .btn{bottom:55px;}
+.memberbox.idpw .box .tit.icon01{background:url("img/idpw_icon01.gif")no-repeat center 0;}
+.memberbox.idpw .box .tit.icon02{background:url("img/idpw_icon02.gif")no-repeat center 0;}
+
+/*본인인증*/
+.memberbox.ipin .box{min-height:390px;}
+.memberbox.ipin .box .con{padding-top:30px;font-size:15px;line-height:26px;color:#555;text-align:center;}
+.memberbox.ipin .box .btn{bottom:55px;}
+.memberbox .box .tit.icon11{background:url("img/ipin_icon01.gif")no-repeat center 0;}
+.memberbox .box .tit.icon12{background:url("img/ipin_icon02.gif")no-repeat center 0;}
+.memberbox .box .con_btn {background:#222 !important; display: inline-block;  margin: 0 3px; color: #fff; padding: 16px 40px; font-weight: normal; font-size: 15px;
+line-height: normal;  vertical-align: middle; text-align: center;  cursor: pointer;  border: 0; letter-spacing: -0.05em;}
+
+/*본인인증 nice_check*/
+.memberbox.nice_check  {width:100%;}
+.memberbox.nice_check .box{min-height:400px;  float:none; margin:0 auto;}
+.memberbox.nice_check .box:hover {border:1px solid #dfdfdf; box-shadow:0;}
+.memberbox.nice_check .box .con{ font-size:15px;line-height:26px;color:#555;text-align:center; margin-top:20px;}
+.memberbox.nice_check .box .btn{bottom:55px;}
+.memberbox .box .tit.icon13{background:url("img/nice_icon01.gif")no-repeat center 0; background-size:85px auto;}
+.memberbox .box .con_btn {background:#222 !important; display: inline-block;  margin: 0 3px; color: #fff; padding: 16px 40px; font-weight: normal; font-size: 15px;
+line-height: normal;  vertical-align: middle; text-align: center;  cursor: pointer;  border: 0; letter-spacing: -0.05em;}

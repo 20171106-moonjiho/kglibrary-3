@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.card{width: 800px;margin: 0 auto;}
+.selectBox{position: relative;text-align: center;width: 100px;height: 35px;border-radius: 10px;border: 1px solid #999;}
+.card-header1 h1{font-size: 30px;font-weight: 600;}
+.card-write{padding: 20px;}
+.card-write input, textarea{margin-left: 10px;padding: 10px;border: 1px solid #999;border-radius: 5px;box-shadow: 3px 3px 10px #e6e6e6;}
+.card-write .subject_title{font-size: 13px;font-family: 600;margin-right: 10px;}
+.card-write .myinfo input[type="text"]{width: 25%;}
+.card-write .title-w input[type="text"]{margin-top: 20px;margin-bottom: 20px;width: 85.5%}
+.card-write .area{margin-top: 20px;margin-bottom: 20px;}
+.card-write .animalinfo{margin-top: 20px;margin-bottom: 20px;}
+.card-write .day{margin-top: 20px;margin-bottom: 20px;}
+.card-write .msg{margin-top: 20px;}
+.card-write .msg textarea{min-width: 90.5%;max-width: 90.5%;min-height: 200px;max-height: 200px;box-shadow: inset 3px 3px 10px #e6e6e6;vertical-align: top;}
+.card-write input[type="file"]{border: none;box-shadow: none;padding: 10px;}
+.submit_button{width: 80px;height: 30px;font-weight: 900;color: white;text-align: center;background: linear-gradient(to bottom, grey, black);border: solid 2px white;border-radius: 5px;}
+.btn-w{text-align: center;margin: 0 auto;padding: 10px;}
+.btn-w input{border: none;background-color: lightcoral;padding: 10px;color: #fff;border-radius: 10px;}

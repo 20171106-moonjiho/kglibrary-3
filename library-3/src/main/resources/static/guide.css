@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+ul.list{margin-top:20px;}
+ul.list li{padding-left:15px; margin-bottom:7px;background:url("/img/bul_list.gif") no-repeat 0 10px;text-align:left;font-size:15px;line-height:25px;color:#222;}
+ul.list li strong.st{font-weight:normal;font-family:'NotoKrM',sans-serif;color:#222;}
+ul.list li ul.list2{margin:5px 0 20px; margin-left:15px;}
+ul.list2 {margin-left:15px; margin-top:20px;}
+ul.list2 li{padding-left:10px;  background:url("/img/bul_list2.gif") no-repeat 0 7px;margin-bottom:5px;line-height:20px;font-size:14px;color:#555;}
+ul.list2 li ul.list3{margin:3px 0 10px;}
+ul.list3 {margin-left:30px;}
+ul.list3 li{padding-left:18px;background:url("/img/bul_list3.gif") no-repeat 0 9px;margin-bottom:3px;line-height:20px;color:#757575; font-size:13px; color:#888;}
+
+table.table1{width:100%;border-collapse:collapse;border:1px solid #e5e5e5;border-top:1px solid #555;}
+table.table1 th,
+table.table1 td{padding:15px 0;font-size:15px;text-align:center;color:#222;}
+table.table1 thead th{border-left:1px solid #e5e5e5;background:#e9f0f5;}
+table.table1 thead th.tline{border-top:1px solid #dfdfdf;}
+table.table1 tbody th,
+table.table1 tbody td{border:1px solid #dfdfdf;line-height:22px;}
+table.table1 tbody tr th.table_bg{background:#edfdff;}
+table.table1 tbody td{color:#555;}
+table.table1 tbody td.eng{font-family:'Lato',sans-serif;font-weight:400;font-size:15px;letter-spacing:0;}
+table.table1 tbody td.left{text-align:left;padding:15px 10px;}
+table.table1 tbody td.right{text-align:right;padding:15px 10px;}
+p.table_right{text-align:right;padding:3px 0;margin-top:-30px;}
+
+
+.info_use_join{display:inline-block;width:100%;}
+.info_use_join dl{display:inline-block;margin-top:20px;width:100%;line-height:0;}
+.info_use_join dl:first-child{margin-top:0}
+.info_use_join dl dt{display:table;float:left;width:148px;height:148px;border:1px solid #e5e5e5;border-radius:10px;text-align:center; padding:20px 0;}
+.info_use_join dl dt p{display:table-cell;height:148px;vertical-align:middle;background-repeat:no-repeat;background-position:50% top;}
+.info_use_join dl dt p span.img{display:block;}
+.info_use_join dl dt p span.txt{display:block;padding-top:19px;line-height:16px;font-size:16px;font-family:'NotoKrB',sans-serif; font-weight: bold;}
+.info_use_join dl dd{float:right;display:table;width:678px;height:148px;background:#f9f9f9;border-radius:10px;word-break:keep-all; padding: 20px 0;}
+.info_use_join dl dd > ul{display:table-cell;height:auto;padding:0 40px;vertical-align:middle;}
+.info_use_join dl dd > ul > li .list2 {margin:0;}
