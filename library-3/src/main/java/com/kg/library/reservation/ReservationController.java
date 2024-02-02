@@ -96,9 +96,9 @@ public class ReservationController {
 			List<Integer> list = service.getReservations2(dto);
 			model.addAttribute("list", list);
 			model.addAttribute("dto", dto);
-			return "../myReservation";
+			return "redirect:../myReservation";
 		}
-		return "../index";
+		return "redirect:../index";
 	}
 
 	@RequestMapping("reservationheader")
