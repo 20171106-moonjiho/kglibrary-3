@@ -84,7 +84,7 @@ public class ReservationController {
 		ReservationDTO dto = new ReservationDTO();
 		String sessionId = (String) session.getAttribute("id");
 		if (sessionId == null)
-			return "redirect:login";
+			return "redirect:../login";
 		dto.setMember(sessionId);
 		dto.setReservation_date(year_t + "-" + String.format("%02d", Integer.parseInt(month_t)) + "-" + String.format("%02d", Integer.parseInt(day_t)));
 		dto.setRoom_num(room);
