@@ -18,7 +18,7 @@
 			<div class="top_bar">
 				<div class="wsize">
 					<div class="logo">
-					<h1><a href="index"><img src="img/logo_4.png"></a></h1>
+					<h1><a href="index"><img src="../img/logo_4.png"></a></h1>
 					</div>
 					<ul class="aside_menu">	
 
