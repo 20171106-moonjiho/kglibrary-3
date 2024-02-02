@@ -30,7 +30,7 @@ public class ReservationController {
 	@GetMapping("reservation/reservation")
 	public String newindex(Model model) {
 		model.addAttribute("menu", "reservation");
-		return "/reservation/new_reservation";
+		return "reservation/new_reservation";
 	}
 
 	@ResponseBody
@@ -96,7 +96,7 @@ public class ReservationController {
 			List<Integer> list = service.getReservations2(dto);
 			model.addAttribute("list", list);
 			model.addAttribute("dto", dto);
-			return "myReservation";
+			return "reservation/myReservation";
 		}
 		return "index";
 	}
