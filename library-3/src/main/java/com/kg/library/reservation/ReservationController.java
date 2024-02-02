@@ -101,12 +101,12 @@ public class ReservationController {
 		return "index";
 	}
 
-	@RequestMapping("reservation/reservationheader")
+	@RequestMapping("reservationheader")
 	public String reservationheader() {
 		return "reservation/reservationheader";
 	}
 
-	@RequestMapping("reservation/reservationfooter")
+	@RequestMapping("reservationfooter")
 	public String reservationfooter() {
 		return "reservation/reservationfooter";
 	}

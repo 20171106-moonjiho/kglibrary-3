@@ -14,7 +14,7 @@
 	crossorigin="anonymous">
 <body>
 	<script src="http://www.gwep.or.kr/js/jquery-1.8.3.min.js"></script>
-	<c:import url="/header" />
+	<%@ include file="/jsp/default/header.jsp" %>
 	<%@ include file="/jsp/reservation/reservationheader.jsp" %>
 	<div class="step_box">
 		<form name="form_01_1" action="new_result" method="post">
@@ -71,7 +71,7 @@
 			style="display: inline-block; width: 150px; height: 40px; line-height: 40px; margin: 20px auto; margin: 0 3px; color: #000; border: 1px solid #dedede;">회의실
 			예약하기</a>
 	</div>
-	<c:import url="/reservationfooter" />
-	<c:import url="/footer" />
+	<%@ include file="/jsp/reservation/reservationfooter.jsp" %>
+	<%@ include file="/jsp/default/footer.jsp" %>
 </body>
 </html>
