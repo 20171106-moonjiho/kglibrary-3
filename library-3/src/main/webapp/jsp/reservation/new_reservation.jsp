@@ -15,7 +15,7 @@
 <body>
 	<script src="http://www.gwep.or.kr/js/jquery-1.8.3.min.js"></script>
 	<c:import url="/header" />
-	<c:import url="/reservationheader" />
+	<%@ include file="/jsp/reservation/reservationheader.jsp" %>
 	<div class="step_box">
 		<form name="form_01_1" action="new_result" method="post">
 			<input type="hidden" name="room" id="room_t" value=""> <input
