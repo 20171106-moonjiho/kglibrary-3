@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>회의실 예약</title>
 </head>
-<link href="reservation.css" rel="stylesheet">
+<link href="../reservation.css" rel="stylesheet">
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
@@ -47,7 +47,7 @@
 				<div class="step_contents step_date_contents"></div>
 			</div>
 		</form>
-		<script src="reservation.js"></script>
+		<script src="../reservation.js"></script>
 		<div class="step_time">
 			<div class="title">
 				<span><i class="fas fa-clock"></i>시간선택</span>
@@ -65,7 +65,7 @@
 		예약가능
 	</div>
 	<div align="center">
-		<a href="myReservation" class="btn btn_submit"
+		<a href="../myReservation" class="btn btn_submit"
 			style="display: inline-block; width: 150px; height: 40px; line-height: 40px; margin: 20px auto; margin: 0 3px; color: #000; border: 1px solid #dedede;">예약현황으로</a>
 		<a href="#none" onclick="f_submit();" class="btn btn_submit"
 			style="display: inline-block; width: 150px; height: 40px; line-height: 40px; margin: 20px auto; margin: 0 3px; color: #000; border: 1px solid #dedede;">회의실
