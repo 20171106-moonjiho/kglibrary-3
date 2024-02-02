@@ -96,7 +96,7 @@ public class ReservationController {
 			List<Integer> list = service.getReservations2(dto);
 			model.addAttribute("list", list);
 			model.addAttribute("dto", dto);
-			return "reservation/myReservation";
+			return "../myReservation";
 		}
 		return "index";
 	}
