@@ -98,7 +98,7 @@ public class ReservationController {
 			model.addAttribute("dto", dto);
 			return "../myReservation";
 		}
-		return "index";
+		return "../index";
 	}
 
 	@RequestMapping("reservationheader")

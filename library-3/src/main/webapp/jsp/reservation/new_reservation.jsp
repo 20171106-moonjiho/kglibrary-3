@@ -17,7 +17,7 @@
 	<%@ include file="/jsp/default/header.jsp" %>
 	<%@ include file="/jsp/reservation/reservationheader.jsp" %>
 	<div class="step_box">
-		<form name="form_01_1" action="reservation/new_result" method="post">
+		<form name="form_01_1" action="new_result" method="post">
 			<input type="hidden" name="room" id="room_t" value=""> <input
 				type="hidden" name="year_t" id="year_t" value=""> <input
 				type="hidden" name="month_t" id="month_t" value=""> <input
