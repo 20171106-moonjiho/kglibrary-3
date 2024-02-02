@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
-	<link href="common.css" rel="stylesheet">
-	<link href="main.css" rel="stylesheet"> 
-	<link href="notice.css" rel="stylesheet">
-	<link href="swiper.css" rel="stylesheet">
+	<link href="../common.css" rel="stylesheet">
+	<link href="../main.css" rel="stylesheet"> 
+	<link href="../notice.css" rel="stylesheet">
+	<link href="../swiper.css" rel="stylesheet">
  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
  	<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
